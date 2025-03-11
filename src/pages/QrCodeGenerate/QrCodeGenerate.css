@@ -1,0 +1,62 @@
+/* Основной контейнер */
+.qr-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Заголовок */
+.qr-code-container h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Поле ввода */
+.qr-code-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.qr-code-container input:focus {
+    border-color: #007bff;
+}
+
+/* Кнопка */
+.qr-code-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.qr-code-container button:hover {
+    background-color: #0056b3;
+}
+
+/* QR-код */
+.qr-code-container svg {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
