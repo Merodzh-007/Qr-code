@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router"
-import QrCodeGenerate from "../pages/qrCodeGenerate/qrCodeGenerate"
+import QrCodeGenerate from "../pages/qrCodeGenerate/QrCodeGenerate"
 import QrCodeScanner from "../pages/QrCodeScanner/QrCodeScanner"
 import Error from "../pages/Error"
-import MainPage from "../pages/mainPage"
+import MainPage from "../pages/MainPage"
 import GenerateHistory from "../pages/GenerateHistory"
 import ScanHistory from "../pages/ScanHistory"
 
