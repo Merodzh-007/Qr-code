@@ -13,7 +13,7 @@ const AppRoute = () => {
         { path: '/Qr-code/qrcodeScanner', element: <QrCodeScanner /> },
         { path: '/Qr-code/generateHistory', element: <GenerateHistory /> },
         { path: '/Qr-code/scanHistory', element: <ScanHistory /> }, 
-        { path: '/*', element: <Error /> },
+        { path: '/Qr-code/*', element: <Error /> },
     ]
     return (
         <Routes>
