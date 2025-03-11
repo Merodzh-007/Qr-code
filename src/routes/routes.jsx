@@ -8,11 +8,11 @@ import ScanHistory from "../pages/ScanHistory"
 
 const AppRoute = () => {
     const pagesRoute = [
-       { path: '/', element: <MainPage /> },
-        { path: '/qrCodeGenerate', element: <QrCodeGenerate /> },
-        { path: '/qrcodeScanner', element: <QrCodeScanner /> },
-        { path: '/generateHistory', element: <GenerateHistory /> },
-        { path: '/scanHistory', element: <ScanHistory /> }, 
+       { path: '/Qr-code/', element: <MainPage /> },
+        { path: '/Qr-code/qrCodeGenerate', element: <QrCodeGenerate /> },
+        { path: '/Qr-code/qrcodeScanner', element: <QrCodeScanner /> },
+        { path: '/Qr-code/generateHistory', element: <GenerateHistory /> },
+        { path: '/Qr-code/scanHistory', element: <ScanHistory /> }, 
         { path: '/*', element: <Error /> },
     ]
     return (

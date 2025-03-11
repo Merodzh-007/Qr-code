@@ -9,15 +9,15 @@ const Headers = () => {
     const location = useLocation()
     const locationItem = () => {
         switch (location.pathname) {
-            case '/':
+            case '/Qr-code/':
                 return ['1']
-            case '/qrcodescanner':
+            case '/Qr-code/qrcodescanner':
                 return ['2']
-            case '/qrCodeGenerate':
+            case '/Qr-code/qrCodeGenerate':
                 return ['3']
-            case '/generateHistory':
+            case '/Qr-code/generateHistory':
                 return ['4']
-            case '/scanHistory':
+            case '/Qr-code/scanHistory':
                 return ['5']
             default:
                 break;
@@ -46,23 +46,23 @@ const Headers = () => {
           items={
             [{ key: String(1),
                 label: `Главная`,
-                  onClick: ()=>navigate('/')
+                  onClick: ()=>navigate('/Qr-code/')
               },
              { key: String(2),
                  label: `Сканировать QR-code`,
-                  onClick: ()=>navigate('/qrcodeScanner')
+                  onClick: ()=>navigate('/Qr-code/qrcodeScanner')
                 },
             { key: String(3),
                 label: `Генирировать QR-code`,
-                onClick: ()=>navigate('/qrCodeGenerate')
+                onClick: ()=>navigate('/Qr-code/qrCodeGenerate')
                   },
               { key: String(4),
                 label: `История Ген`,
-                onClick: ()=>navigate('/generateHistory')
+                onClick: ()=>navigate('/Qr-code/generateHistory')
                   },
               { key: String(5),
                 label: `История Cкан`,
-                onClick: ()=>navigate('/scanHistory')
+                onClick: ()=>navigate('/Qr-code/scanHistory')
                   },
             ]
           }
