@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router"
-import QrCodeGenerate from "../pages/qrCodeGenerate/QrCodeGenerate"
+import QrCodeGenerate from "../pages/QrCodeGenerate/QrCodeGenerate"
 import QrCodeScanner from "../pages/QrCodeScanner/QrCodeScanner"
 import Error from "../pages/Error"
 import MainPage from "../pages/MainPage"
